@@ -3,7 +3,7 @@ const { withFaust } = require('@faustjs/next');
 /**
  * @type {import('next').NextConfig}
  **/
-module.exports = withFaust, async headers() {
+module.exports = { withFaust, async headers() {
     return [
       {
         source: '/',
