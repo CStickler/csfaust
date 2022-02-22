@@ -19,8 +19,6 @@ export default function Page() {
 
   return (
     <>
-     <meta http-equiv="Cache-control" content="public">
-
       <Header
         title={generalSettings.title}
         description={generalSettings.description}
@@ -29,6 +27,8 @@ export default function Page() {
       />
 
       <Head>
+        <meta http-equiv="Cache-control" content="public">
+
         <title>
           {generalSettings.title} - {generalSettings.description}
         </title>
