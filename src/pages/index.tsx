@@ -27,8 +27,6 @@ export default function Page() {
       />
 
       <Head>
-        <meta http-equiv="Cache-control" content="public">
-
         <title>
           {generalSettings.title} - {generalSettings.description}
         </title>
