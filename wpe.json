@@ -1,0 +1,19 @@
+{
+  "name": "csfaust",
+  "repo": "CStickler/csfaust",
+  "region": "US-C",
+  "environments": [
+    {
+      "name": "Production",
+      "branch": "main",
+      "wp_environment_name": "csfaust",
+      "domains": ["csfaust.claudestickler.com"],
+      "env_variables": [
+        {
+          "key": "WORDPRESS_URL",
+          "value": "https://csfaust.wpengine.com"
+        }
+      ]
+    }
+  ]
+}
